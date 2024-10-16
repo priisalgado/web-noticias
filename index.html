@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Noticias</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .image-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-item {
+    text-align: center;
+    width: 24%;
+}
+
+.image-item img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-item a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.image-item a:hover {
+    color: #555;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noticias</h1>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="register.html">Registrar</a> <!-- Aquí se accede al registro -->
+        </nav>
+    </header>
+
+    <div class="container">
+        
+    </div>
+
+    <div class="image-gallery">
+        <div class="image-item">
+            <img src="gaza.webp" alt="Imagen 1">
+            <a href="https://www.middleeasteye.net/news/israel-erasing-northern-gaza-aid-groups-warn">Enfrentamiento en gaza</a>
+        </div>
+        <div class="image-item">
+            <img src="crisis.jpg" alt="Imagen 2">
+            <a href="https://www.climatecouncil.org.au/2024s-climate-crisis-extreme-weather-around-the-globe/">Crisis climatica</a>
+        </div>
+        <div class="image-item">
+            <img src="IA.avif" alt="Imagen 3">
+            <a href="https://www.ibm.com/think/insights/ai-trends">Avances de IA</a>
+        </div>
+        <div class="image-item">
+            <img src="protesta.jpg" alt="Imagen 4">
+            <a href="http://www.batimes.com.ar/news/argentina/students-take-classes-onto-streets-to-protest-mileis-cutbacks-to-state-universities.phtml">Protesta por universidad publica</a>
+        </div>
+    </div>
+    
+
+    <footer>
+        <p>Noticias &copy; 2024</p>
+    </footer>
+</body>
+</html>
+
+ 
